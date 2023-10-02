@@ -1,5 +1,5 @@
 import FooterWithLogo from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/navbars/Header";
 import React from "react";
 
 const Policy = () => {

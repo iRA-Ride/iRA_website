@@ -6,40 +6,43 @@ const RideCab = () => {
     <div>
       <div
         id="bookCab"
-        className="px-5 pt-16 lg:p-5 text-xl  sm:text-3xl dark:text-white"
+        className="px-5 py-10 lg:px-5 lg:pt-5 lg:pb-16 text-xl  sm:text-3xl "
       >
-        <div className="p-5 lg:px-80 text-center font-bold text-3xl sm:text-3xl dark:text-gray-300">
-          <span>Ride a Cab</span>
-        </div>
-        <div className="flex flex-col max-w sm:px-10 md:px-20 lg:px-40 xl:px-80 2xl:px-[500px] px-3 justify-center ">
+        <div className="max-w sm:px-10 md:px-20 lg:px-40 xl:px-80 2xl:px-[400px] px-3">
           <form className="flex flex-col justify-center gap-4 ">
-            <div>
-              <div className="mb-2 block">
-                <Label htmlFor="currentLocation" value="Current Location" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 ">
+              <div className="lg:pr-2">
+                <div className="mb-2 block">
+                  <Label htmlFor="currentLocation" value="Current Location" />
+                </div>
+                <TextInput
+                  id="currentLocation"
+                  placeholder="MGR Nagar, Chennai"
+                  required
+                  type="text"
+                />
               </div>
-              <TextInput
-                id="urrentLocation"
-                placeholder="MGR Nagar, Chennai"
-                required
-                type="text"
-              />
+              <div className="lg:pl-2">
+                <div className="mb-2 block">
+                  <Label htmlFor="destination" value="Destination" />
+                </div>
+                <TextInput
+                  id="destination"
+                  required
+                  type="text"
+                  placeholder="Anna Nagar, Chennai"
+                />
+              </div>
             </div>
-            <div>
-              <div className="mb-2 block">
-                <Label htmlFor="destination" value="Destination" />
-              </div>
-              <TextInput
-                id="destination"
-                required
-                type="text"
-                placeholder="Anna Nagar, Chennai"
-              />
+            <div className="flex items-center gap-2">
+              <Checkbox id="promotion" />
+              <Label htmlFor="promotion">Look for ride sharing</Label>
             </div>
             <Button
               className="bg-gradient-to-r from-green-400 to-green-500  hover:from-green-500 hover:to-green-600 dark:bg-gradient-to-r dark:from-green-500 dark:to-green-600 hover:dark:from-green-600 hover:dark:to-green-700"
               type="submit"
             >
-              Search Ride
+              Book Ride
             </Button>
           </form>
         </div>

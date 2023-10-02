@@ -1,6 +1,6 @@
 import React from "react";
 import Download from "@/components/Download";
-import Header from "@/components/Header";
+import Header from "@/components/navbars/Header";
 import FooterWithSocialMediaIcons from "@/components/Footer";
 
 const Downloads = () => {

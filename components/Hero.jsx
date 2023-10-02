@@ -1,45 +1,40 @@
+"use client";
+
+import { Button } from "flowbite-react";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
   return (
     <div>
-      <section class="py-40">
+      <section class="lg:py-10 py-4 px-5">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-          <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-6xl lg:text-7xl dark:text-white">
-            Ride Beyond Borders
+          <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-6xl lg:text-7xl">
+            Your Dream Ride, Every Time!
           </h1>
-          <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-            Here at iRA we focus on markets where technology, innovation, and
-            capital can unlock long-term value and drive economic growth.
-          </p>
+          <h1 class="mb-8 text-lg font-normal text-gray-500 lg:text-2xl sm:px-16 lg:px-48">
+            Experience the Journey You've Always Imagined.
+          </h1>
+
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a
-              href="#bookCab"
-              class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-            >
-              Get started
-              <svg
-                class="w-3.5 h-3.5 ml-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
+            <Link href="/SignIn">
+              <Button
+                color
+                size="lg"
+                className="text-white flex justify-center w-full lg:px-5 bg-blue-600 hover:bg-blue-700"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
-            </a>
-            <a
-              href="/About"
-              class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              Learn more
-            </a>
+                Sign In
+              </Button>
+            </Link>
+            <Link href="/SignUp">
+              <Button
+                color
+                size="lg"
+                className="text-white w-full px-4 bg-[#713ABE] hover:bg-[#5B0888]"
+              >
+                Sign Up
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

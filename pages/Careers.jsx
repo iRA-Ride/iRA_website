@@ -1,42 +1,24 @@
+"use client";
 import FooterWithLogo from "@/components/Footer";
-import Header from "@/components/Header";
-import Link from "next/link";
+import CareerHeader from "@/components/navbars/CareerHeader";
 import React from "react";
+import Work from "@/components/careers/Work";
+import VelocityUnleashed from "@/components/careers/VelocityUnleashed";
+import WorkLocations from "@/components/careers/WorkLocations";
+import LifeAtIRA from "@/components/careers/LifeAtIRA";
+import MeetOurTeam from "@/components/careers/MeetOurTeam";
+import JoinUs from "@/components/careers/JoinUs";
 
 const Careers = () => {
   return (
     <div className="">
-      <Header />
-      <div className="pb-[150px]">
-        <div className="p-5 lg:px-80 font-bold text-3xl sm:text-3xl dark:text-white">
-          <span>Careers</span>
-        </div>
-        <div className="px-10 pt-5  lg:px-80 text-gray-600 text-base lg:text-sm dark:text-gray-400">
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </span>
-        </div>
-      </div>
+      <CareerHeader />
+      <Work />
+      <VelocityUnleashed />
+      <WorkLocations />
+      <LifeAtIRA />
+      <MeetOurTeam />
+      <JoinUs />
       <FooterWithLogo />
     </div>
   );

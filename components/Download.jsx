@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 
 export default function CallToActionCard(props) {
   return (
-    <Card className="border-0 rounded-none lg:px-80 dark:bg-gray-900">
+    <Card className="border-0 bg-[#FBF0B2] rounded-none lg:px-80">
       <h5 className="mb-2 text-3xl font-bold text-center text-gray-900 dark:text-white">
         Make your {props.medium} smoother today
       </h5>

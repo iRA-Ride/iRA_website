@@ -11,7 +11,7 @@ import {
 
 export default function FooterWithSocialMediaIcons() {
   return (
-    <Footer className="border-0 rounded-none" container>
+    <Footer className="border-0 rounded-none bg-[#FBF0B2]" container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>

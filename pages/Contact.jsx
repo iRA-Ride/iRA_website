@@ -1,5 +1,5 @@
 import FooterWithLogo from "@/components/Footer";
-import Header from "@/components/Header";
+import ContactHeader from "@/components/navbars/Header";
 import Link from "next/link";
 import React from "react";
 import {
@@ -13,7 +13,7 @@ import {
 const Contact = () => {
   return (
     <div>
-      <Header />
+      <ContactHeader />
       <div className="pb-[260px] ">
         <div className="p-5 lg:px-80 font-bold text-3xl sm:text-3xl dark:text-gray-300">
           <span>Contact Us</span>
