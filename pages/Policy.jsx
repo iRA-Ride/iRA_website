@@ -28,7 +28,9 @@ const Policy = () => {
           the usages of the platform.
         </p>
         <br />
-        <p>1. INFORMATION COLLECTED AND USE OF INFORMATION</p>
+        <p className="font-bold">
+          1. INFORMATION COLLECTED AND USE OF INFORMATION
+        </p>
         <br />
 
         <p>
@@ -45,7 +47,7 @@ const Policy = () => {
           feedback, etc.
         </p>
         <br />
-        <p>2. RETENTION</p>
+        <p className="font-bold">2. RETENTION</p>
         <br />
         <p>
           All information including personal information collected mentioned
@@ -65,7 +67,7 @@ const Policy = () => {
           outstanding credit or an unresolved claim or dispute.
         </p>
         <br />
-        <p>3. RIGHTS</p>
+        <p className="font-bold">3. RIGHTS</p>
         <br />
         <p>
           You shall have the right to access your profile on the platform at any
@@ -76,7 +78,7 @@ const Policy = () => {
           only providing information that is true and accurate.
         </p>
         <br />
-        <p>4. DATA SECURITY</p>
+        <p className="font-bold">4. DATA SECURITY</p>
         <br />
         <p>
           iRA shall take all organizational and technical measures required
@@ -85,14 +87,14 @@ const Policy = () => {
           data is encrypted in transit as well as at rest.
         </p>
         <br />
-        <p>5. DISCLOSURES AND TRANSFER</p>
+        <p className="font-bold">5. DISCLOSURES AND TRANSFER</p>
         <br />
         <p>
           We share your information with third parties for various purposes as
           detailed herein below:
         </p>
         <br />
-        <p>6. GRIEVANCES</p>
+        <p className="font-bold">6. GRIEVANCES</p>
         <br />
         <p>
           If You have grievance or complaint, questions, comments, concerns or
@@ -107,7 +109,7 @@ const Policy = () => {
           mentioned herein below.
         </p>
         <br />
-        <p>7. Grievance Officer:</p>
+        <p className="font-bold">7. Grievance Officer:</p>
         <br />
         <p>Ramar G</p>
         <p>Founder - iRA</p>
@@ -118,7 +120,7 @@ const Policy = () => {
           </Link>
         </p>
         <br />
-        <p>8. UPDATES</p>
+        <p className="font-bold">8. UPDATES</p>
         <br />
         <p>
           We may occasionally update this notice. If we make significant

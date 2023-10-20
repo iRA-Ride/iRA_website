@@ -44,12 +44,12 @@ export function LoginCard() {
             </Typography>
           </CardFooter>
         </div>
-        <Typography className="px-6">
+        <div className="px-6">
           <div className="flex w-full items-center gap-2 py-3 text-sm text-slate-600">
             <div className="h-px w-full bg-gray-300"></div>
             OR <div className="h-px w-full bg-gray-300"></div>
           </div>
-        </Typography>
+        </div>
         <div className="px-6  grid grid-cols-3">
           <div className="py-2">
             <GoogleButton />

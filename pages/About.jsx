@@ -10,7 +10,7 @@ const About = () => {
       <div className="px-10 py-5 mt-5 lg:px-80 font-extrabold text-3xl lg:text-6xl text-start heading-text">
         <span>Velocity Unleashed, Ascending Together</span>
       </div>
-      <div className="px-10 py-2 lg:pl-80 lg:pr-96 lg:py-5 sub-text text-base lg:text-lg dark:text-gray-400">
+      <div className="px-10 py-2 lg:pl-80 lg:pr-96 lg:py-5 sub-text text-base lg:text-lg ">
         <span>
           <p>
             At iRA, we're not just changing transportation; we're igniting a
@@ -23,7 +23,7 @@ const About = () => {
       <div className="px-10 py-5 lg:px-80 font-extrabold text-2xl lg:text-5xl text-start heading-text">
         <span>Why iRA?</span>
       </div>
-      <div className="px-10 py-2 text-base sub-text lg:pl-80 lg:pr-96 lg:py-5 lg:text-lg dark:text-gray-400">
+      <div className="px-10 py-2 text-base sub-text lg:pl-80 lg:pr-96 lg:py-5 lg:text-lg ">
         <span>
           <p>
             Because we don't just adapt; we innovate in real-time, on countless

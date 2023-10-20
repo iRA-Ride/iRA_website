@@ -24,15 +24,15 @@ export default function SimpleRegistrationForm() {
   };
 
   return (
-    <div className=" justify-center m-5 lg:mb-20 grid grid-cols-2">
+    <div className=" justify-center m-5 lg:mb-20 grid grid-cols-1 lg:grid-cols-2">
       <div>
         <Image
           src={taxi}
-          className="lg:ml-[10%] h-[350px] w-[90%] flex justify-end"
+          className="lg:ml-[10%] lg:h-[350px] lg:w-[90%] pb-5 flex justify-end"
         />
       </div>
-      <div className="flex lg:ml-20">
-        <Card color="white" className=" py-5 px-5 bg-[#d5f8f6]" shadow={false}>
+      <div className="flex lg:ml-20 ">
+        <Card color="white" className=" py-5 px-4 bg-[#d5f8f6]" shadow={false}>
           <form
             onSubmit={handleSubmit}
             className=" mb-2 w-80 max-w-screen-lg sm:w-96"

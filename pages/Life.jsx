@@ -7,10 +7,10 @@ const Life = () => {
     <div>
       <CareerHeader />
       <div className="lg:px-80 ">
-        <div className="px-10 py-5 font-bold text-3xl lg:text-5xl text-start dark:text-white">
+        <div className="px-10 py-5 pt-10 font-extrabold heading-text text-4xl lg:text-6xl text-start ">
           <span>Life at iRA</span>
         </div>
-        <div className="lg:px-10">
+        <div className="lg:px-10 text-md lg:text-lg sub-text lg:pr-40 lg:pb-60 lg:py-5">
           <span>
             At iRA, we cherish the diversity of thought that shapes our
             platform. We provide the freedom to work on your own terms, offer
