@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className="bg-[#FBF0B2]">
+    <div className="">
       <Head>
         <title>iRA-Ride</title>
       </Head>

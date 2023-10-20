@@ -7,10 +7,10 @@ const Services = () => {
   return (
     <div>
       <Header />
-      <div className="p-5 lg:px-80 font-bold text-3xl sm:text-3xl dark:text-white">
+      <div className="p-5 mt-10 lg:px-80 font-extrabold heading-text text-3xl lg:text-5xl dark:text-white">
         <span>Services</span>
       </div>
-      <div className="px-10 pt-5 pb-[260px] lg:px-80 text-gray-600 text-base lg:text-sm dark:text-gray-400">
+      <div className="px-10 pt-5 pb-[260px] lg:px-80 sub-text text-base lg:text-lg dark:text-gray-400">
         <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

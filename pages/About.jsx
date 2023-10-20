@@ -7,10 +7,10 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className="px-10 py-5 lg:px-80 font-bold text-3xl lg:text-5xl text-start dark:text-white">
+      <div className="px-10 py-5 mt-5 lg:px-80 font-extrabold text-3xl lg:text-6xl text-start heading-text">
         <span>Velocity Unleashed, Ascending Together</span>
       </div>
-      <div className="px-10 py-2 lg:px-80 lg:py-5 text-gray-600 text-base lg:text-sm dark:text-gray-400">
+      <div className="px-10 py-2 lg:pl-80 lg:pr-96 lg:py-5 sub-text text-base lg:text-lg dark:text-gray-400">
         <span>
           <p>
             At iRA, we're not just changing transportation; we're igniting a
@@ -20,10 +20,10 @@ const About = () => {
           </p>
         </span>
       </div>
-      <div className="px-10 py-5 lg:px-80 font-bold text-2xl lg:text-4xl text-start dark:text-white">
+      <div className="px-10 py-5 lg:px-80 font-extrabold text-2xl lg:text-5xl text-start heading-text">
         <span>Why iRA?</span>
       </div>
-      <div className="px-10 py-2 lg:px-80 lg:py-5 text-gray-600 text-base lg:text-sm dark:text-gray-400">
+      <div className="px-10 py-2 text-base sub-text lg:pl-80 lg:pr-96 lg:py-5 lg:text-lg dark:text-gray-400">
         <span>
           <p>
             Because we don't just adapt; we innovate in real-time, on countless
@@ -35,15 +35,15 @@ const About = () => {
           </p>
         </span>
       </div>
-      <div className="px-10 py-2 lg:px-80 text-gray-600 text-base lg:text-sm dark:text-gray-400">
+      <div className="px-10 py-2 sub-text lg:pl-80 lg:pr-96 lg:py-5 lg:text-lg">
         <span>
           <p>
             With iRA, you're not just joining a company; you're joining a
-            revolution. Are you ready to ride the wave of change?"
+            revolution. Are you ready to ride the wave of change?
           </p>
         </span>
       </div>
-      <div className="p-5 lg:px-80 font-bold text-2xl lg:text-4xl text-start dark:text-white">
+      <div className="p-5 lg:px-80 lg:pt-10 font-bold text-2xl lg:text-5xl heading-text text-start ">
         <span>How iRA works?</span>
       </div>
       <Placeholder />

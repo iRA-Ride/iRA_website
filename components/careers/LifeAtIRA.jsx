@@ -6,7 +6,7 @@ const Content3 = () => {
   return (
     <div>
       <Link href="/Life">
-        <div className="flex justify-end px-10 py-5 pt-10 lg:px-80 font-bold text-2xl lg:text-4xl text-start dark:text-white">
+        <div className="flex px-10 py-5 pt-10 lg:px-80 font-extrabold heading-text text-2xl lg:text-5xl text-start">
           <div>
             <span>
               <p>Life at iRA:</p>
@@ -18,7 +18,16 @@ const Content3 = () => {
           </div>
         </div>
       </Link>
-      <div className="lg:flex lg:px-80 gap-8 ">
+      <div className="lg:flex lg:pl-80 lg:pr-60 gap-8 ">
+        <div className="lg:p-3 px-10 sub-text text-lg">
+          <span>
+            At iRA, we cherish the diversity of thought that shapes our
+            platform. We provide the freedom to work on your own terms, offer
+            benefits to empower your best self, and uphold an unwavering
+            commitment to ethical practices. This is more than a job; it's a
+            culture of inclusivity and integrity, where every voice matters.
+          </span>
+        </div>
         <div
           role="status"
           className=" py-5 space-y-8 animate-pulse md:space-y-0 flex justify-center md:space-x-8 md:flex md:items-center"
@@ -35,15 +44,6 @@ const Content3 = () => {
             </svg>
           </div>
           <span className="sr-only">Loading...</span>
-        </div>
-        <div className="lg:p-3 px-10">
-          <span>
-            At iRA, we cherish the diversity of thought that shapes our
-            platform. We provide the freedom to work on your own terms, offer
-            benefits to empower your best self, and uphold an unwavering
-            commitment to ethical practices. This is more than a job; it's a
-            culture of inclusivity and integrity, where every voice matters.
-          </span>
         </div>
       </div>
     </div>

@@ -6,17 +6,17 @@ const Content2 = () => {
   return (
     <div>
       <Link href="/Locations">
-        <div className="flex px-10 py-5 lg:px-80 font-bold text-2xl lg:text-4xl text-start dark:text-white">
+        <div className="flex px-10 py-5 lg:px-80 font-extrabold heading-text text-2xl lg:text-5xl text-start dark:text-white">
           <div>
             <span>Locations</span>
           </div>
           <div>
-            <BiLinkExternal className="h-3 w-3 text-blue-500" />
+            <BiLinkExternal className="h-4 w-4 text-blue-500" />
           </div>
         </div>
       </Link>
-      <div className="lg:flex lg:px-80 gap-8 ">
-        <div className="lg:p-3 px-10 ">
+      <div className="lg:flex lg:pl-80 lg:pr-60 gap-8 ">
+        <div className="lg:p-3 px-10 sub-text lg:text-lg">
           <span>
             iRA thrives in the heart of Tamil Nadu, reaching far beyond city
             limits. We're dedicated to enhancing mobility in non-urban areas,

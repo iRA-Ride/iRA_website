@@ -6,17 +6,18 @@ const Content4 = () => {
   return (
     <div>
       <Link href="/Team">
-        <div className="flex px-10 py-5 pt-[60px] lg:px-80 font-bold text-2xl lg:text-4xl text-start dark:text-white">
+        <div className="flex px-10 py-5 pt-[60px] lg:px-80 font-extrabold heading-text text-2xl lg:text-5xl text-start">
           <div>
-            <span>Meet Our Team: Catalysts of Change</span>
+            <p>Meet Our Team:</p>
+            <p>Catalysts of Change</p>
           </div>
           <div>
             <BiLinkExternal className="h-3 w-3 text-blue-500" />
           </div>
         </div>
       </Link>
-      <div className="lg:flex lg:px-80 gap-8 ">
-        <div className="lg:p-3 px-10">
+      <div className="lg:flex lg:pl-80 lg:pr-60 gap-8 ">
+        <div className="lg:p-3 px-10 sub-text text-lg">
           <span>
             Our team at iRA is a dynamic ensemble of innovators and visionaries.
             From seasoned professionals to fresh talent, we're united by a

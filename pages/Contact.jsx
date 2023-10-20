@@ -14,11 +14,11 @@ const Contact = () => {
   return (
     <div>
       <ContactHeader />
-      <div className="pb-[260px] ">
-        <div className="p-5 lg:px-80 font-bold text-3xl sm:text-3xl dark:text-gray-300">
+      <div className="pb-[260px] mt-10">
+        <div className="p-5 lg:px-80 font-extrabold text-4xl lg:text-5xl heading-text">
           <span>Contact Us</span>
         </div>
-        <div className="px-10 pt-5  lg:px-80 text-gray-600 text-base lg:text-sm dark:text-gray-400">
+        <div className="px-10 pt-5  lg:px-80 sub-text text-sm lg:text-lg ">
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -43,7 +43,7 @@ const Contact = () => {
             anim id est laborum.
           </span>
         </div>
-        <div className="p-5 px-10 lg:px-80  text-gray-600 text-base lg:text-sm dark:text-gray-400">
+        <div className="p-5 px-10 lg:px-80  sub-text text-sm lg:text-lg ">
           <span>
             For <strong>employment enquiries</strong> visit our{" "}
             <Link href="/Careers" className="underline underline-offset-1">
@@ -51,14 +51,14 @@ const Contact = () => {
             </Link>
           </span>
         </div>
-        <div className="p-5 px-10 lg:px-80  text-gray-600 text-base lg:text-sm dark:text-gray-400">
+        <div className="p-5 px-10 lg:px-80  sub-text text-sm lg:text-lg">
           <span>
             For <strong>new business</strong> and{" "}
             <strong>media inquiries</strong>, email{" "}
             <strong>Ramar Gurusamy</strong>, ramargurusamy@ira.com
           </span>
         </div>
-        <div className="p-5 px-10 font-bold text-center  text-gray-600 text-base lg:text-sm dark:text-gray-400">
+        <div className="p-5 px-10 font-bold text-center  sub-text text-sm lg:text-lg">
           <div>
             <span>For all other questions:</span>
           </div>
@@ -66,7 +66,7 @@ const Contact = () => {
             <Link href="mailto:info@ira.com">info@ira.com</Link>
           </div>
         </div>
-        <div className="p-5 px-10 lg:px-80  text-center font-bold  text-gray-600 text-base lg:text-sm dark:text-gray-400">
+        <div className="p-5 px-10 lg:px-80  text-center font-bold  sub-text text-sm lg:text-lg">
           <div>
             <span>Follow us at</span>
           </div>

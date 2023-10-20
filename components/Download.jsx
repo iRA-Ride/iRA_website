@@ -4,11 +4,11 @@ import { Card } from "flowbite-react";
 
 export default function CallToActionCard(props) {
   return (
-    <Card className="border-0 bg-[#FBF0B2] rounded-none lg:px-80">
-      <h5 className="mb-2 text-3xl font-bold text-center text-gray-900 dark:text-white">
+    <Card className="border-0 bg-inherit shadow-none rounded-none lg:px-80">
+      <h5 className="mb-2 text-3xl font-extrabold lg:text-4xl text-center heading-text ">
         Make your {props.medium} smoother today
       </h5>
-      <p className="mb-5 text-base text-center text-gray-500 dark:text-gray-400 sm:text-lg">
+      <p className="mb-5 text-base text-center lg:text-lg sub-text">
         Stay up to date and move work forward with {props.type} on iOS &
         Android. Download the app today.
       </p>
