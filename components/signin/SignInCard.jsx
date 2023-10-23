@@ -30,7 +30,7 @@ export function LoginCard() {
             <Button variant="gradient" fullWidth>
               Sign In
             </Button>
-            <Typography variant="small" className="mt-6 flex justify-center">
+            <Typography variant="small" className="mt-6  flex justify-center">
               Don&apos;t have an account?
               <Typography
                 as="a"

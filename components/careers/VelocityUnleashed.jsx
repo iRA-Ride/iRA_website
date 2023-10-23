@@ -3,12 +3,12 @@ import React from "react";
 const Content1 = () => {
   return (
     <div>
-      <div className="px-10 py-5 lg:px-80 font-extrabold heading-text text-2xl lg:text-5xl text-start ">
+      <div className="px-10 py-5 lg:px-80 font-extrabold heading-text text-3xl lg:text-5xl text-start ">
         <p>Velocity Unleashed,</p>
         <p> Ascending Together</p>
       </div>
       <div className="lg:flex lg:pl-80 lg:pr-60 gap-8 py-5">
-        <div className="lg:p-3 px-10 sub-text lg:text-lg">
+        <div className="lg:p-3 px-10 sub-text text-base lg:text-lg">
           <span>
             At iRA, we're not just changing transportation; we're igniting a
             movement. We're the architects of journeys, from zipping through

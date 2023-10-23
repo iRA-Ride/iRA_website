@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className="px-10 py-5 mt-5 lg:px-80 font-extrabold text-3xl lg:text-6xl text-start heading-text">
+      <div className="px-10 py-5 mt-5 lg:px-80 font-extrabold text-4xl lg:text-6xl text-start heading-text">
         <span>Velocity Unleashed, Ascending Together</span>
       </div>
       <div className="px-10 py-2 lg:pl-80 lg:pr-96 lg:py-5 sub-text text-base lg:text-lg ">
@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </span>
       </div>
-      <div className="px-10 py-5 lg:px-80 font-extrabold text-2xl lg:text-5xl text-start heading-text">
+      <div className="px-10 py-5 lg:px-80 font-extrabold text-3xl lg:text-5xl text-start heading-text">
         <span>Why iRA?</span>
       </div>
       <div className="px-10 py-2 text-base sub-text lg:pl-80 lg:pr-96 lg:py-5 lg:text-lg ">
@@ -43,7 +43,7 @@ const About = () => {
           </p>
         </span>
       </div>
-      <div className="p-5 lg:px-80 lg:pt-10 font-bold text-2xl lg:text-5xl heading-text text-start ">
+      <div className="px-10 py-2 lg:px-80 lg:pt-10 font-bold text-3xl lg:text-5xl heading-text text-start ">
         <span>How iRA works?</span>
       </div>
       <Placeholder />

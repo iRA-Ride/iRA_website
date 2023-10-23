@@ -1,4 +1,5 @@
 import FooterWithLogo from "@/components/Footer";
+import ContactForm from "@/components/contacts/ContactForm";
 import ContactHeader from "@/components/navbars/Header";
 import Link from "next/link";
 import React from "react";
@@ -14,36 +15,14 @@ const Contact = () => {
   return (
     <div>
       <ContactHeader />
-      <div className="pb-[260px] mt-10">
-        <div className="p-5 lg:px-80 font-extrabold text-4xl lg:text-5xl heading-text">
+      <div className="pb-[260px]">
+        <div className="px-10 py-5 pt-10 lg:px-80 font-extrabold text-center text-4xl lg:text-5xl heading-text">
           <span>Contact Us</span>
         </div>
-        <div className="px-10 pt-5  lg:px-80 sub-text text-sm lg:text-lg ">
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </span>
+        <div className="px-10 pt-2 flex justify-center items-center lg:px-80  sub-text text-base lg:text-lg ">
+          <ContactForm />
         </div>
-        <div className="p-5 px-10 lg:px-80  sub-text text-sm lg:text-lg ">
+        <div className="p-5 px-10 lg:px-80 text-center sub-text text-sm lg:text-lg ">
           <span>
             For <strong>employment enquiries</strong> visit our{" "}
             <Link href="/Careers" className="underline underline-offset-1">
@@ -51,19 +30,15 @@ const Contact = () => {
             </Link>
           </span>
         </div>
-        <div className="p-5 px-10 lg:px-80  sub-text text-sm lg:text-lg">
-          <span>
-            For <strong>new business</strong> and{" "}
-            <strong>media inquiries</strong>, email{" "}
-            <strong>Ramar Gurusamy</strong>, ramargurusamy@ira.com
-          </span>
-        </div>
+
         <div className="p-5 px-10 font-bold text-center  sub-text text-sm lg:text-lg">
           <div>
             <span>For all other questions:</span>
           </div>
           <div>
-            <Link href="mailto:info@ira.com">info@ira.com</Link>
+            <Link href="mailto:mention.ira@google.com">
+              mention.ira@google.com
+            </Link>
           </div>
         </div>
         <div className="p-5 px-10 lg:px-80  text-center font-bold  sub-text text-sm lg:text-lg">
