@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Effortless Booking through App",
+    "text": "Seamless, user-friendly app for quick bookings"
+  },
+  {
+    "id": 2,
+    "name": "Loyalty Rewards Program",
+    "text": "Earn points with every ride for exclusive discounts and perks"
+  },
+  {
+    "id": 3,
+    "name": "AI-Powered IVR System",
+    "text": "Intelligent voice response for efficient customer service"
+  },
+  {
+    "id": 4,
+    "name": "Exceptional Customer Support",
+    "text": "24/7 assistance for all your queries and concerns"
+  },
+  {
+    "id": 5,
+    "name": "Enhanced Driver Experience",
+    "text": "Empowering drivers for safe, reliable service"
+  },
+  {
+    "id": 6,
+    "name": "Real-Time Updates",
+    "text": "Track your ride and stay informed with live status notifications"
+  },
+  {
+    "id": 7,
+    "name": "Secure Payment Options",
+    "text": "Multiple secure payment methods for convenience and peace of mind"
+  },
+  {
+    "id": 8,
+    "name": "Transparent Pricing",
+    "text": "Clear and upfront fares with no hidden costs"
+  },
+  {
+    "id": 8,
+    "name": "Diverse Vehicle Fleet",
+    "text": "Choose from a range of vehicles to suit your needs"
+  },
+  {
+    "id": 10,
+    "name": "Environmentally Conscious",
+    "text": "Eco-friendly options for a sustainable journey"
+  },
+  {
+    "id": 11,
+    "name": "Global Coverage",
+    "text": "Available in multiple cities for your travel convenience"
+  },
+  {
+    "id": 12,
+    "name": "Personalized Recommendations",
+    "text": "Tailored suggestions based on your preferences and history"
+  },
+  {
+    "id": 13,
+    "name": "Efficient Route Optimization",
+    "text": "Smart algorithms for quickest and most cost-effective routes"
+  },
+  {
+    "id": 14,
+    "name": "Safety First",
+    "text": "Stringent safety measures to ensure a secure ride"
+  },
+  {
+    "id": 15,
+    "name": "Community-Centric Initiatives",
+    "text": "Partnering with local communities for positive impact"
+  }
+]

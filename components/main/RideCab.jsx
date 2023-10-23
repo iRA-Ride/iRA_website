@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Link from "next/link";
-import taxi from "public/taxi.png";
+import taxi from "public/pics/taxi.png";
 import Image from "next/image";
 
 export default function SimpleRegistrationForm() {
@@ -24,9 +24,11 @@ export default function SimpleRegistrationForm() {
   };
 
   return (
-    <div className=" justify-center m-5 lg:mb-20 grid grid-cols-1 lg:grid-cols-2">
+    <div className="lg:py-8 justify-center m-5 lg:mb-20 grid grid-cols-1 lg:grid-cols-2">
       <div>
         <Image
+          alt="taxi"
+          priority={false}
           src={taxi}
           className="lg:ml-[10%] lg:h-[350px] lg:w-[90%] pb-5 flex justify-end"
         />
