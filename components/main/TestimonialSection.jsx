@@ -10,6 +10,7 @@ const TestimonialSection = () => {
 
   var settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 2000,
     slidesToShow: 4,

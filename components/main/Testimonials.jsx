@@ -11,7 +11,7 @@ const Testimonials = ({ id, name, text }) => {
             {name}
           </Typography>
           <Typography className="text-base text-center sub-text">
-            "{text}"
+            {text}
           </Typography>
         </CardBody>
       </Card>
