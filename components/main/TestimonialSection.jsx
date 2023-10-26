@@ -30,7 +30,7 @@ const TestimonialSection = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
       {
@@ -41,21 +41,15 @@ const TestimonialSection = () => {
       },
     ],
   };
+  const testimonialList = content.map((item) => (
+    <div key={item.id}>
+      <Testimonials id={item.id} name={item.name} text={item.text} />
+    </div>
+  ));
 
   return (
     <div className="px-10">
-      <Slider {...settings}>
-        {content.map((item) => (
-          <div>
-            <Testimonials
-              key={item.name}
-              id={item.id}
-              name={item.name}
-              text={item.text}
-            />
-          </div>
-        ))}
-      </Slider>
+      <Slider {...settings}>{testimonialList}</Slider>
     </div>
   );
 };

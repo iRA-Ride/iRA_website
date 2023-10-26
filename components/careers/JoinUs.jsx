@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Button, Table } from "flowbite-react";
 import CareerPortal from "./CareerPortal";
 
 const JoinUs = () => {

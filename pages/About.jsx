@@ -1,6 +1,6 @@
-import FooterWithLogo from "@/components/Footer";
-import Header from "@/components/navbars/Header";
-import { Placeholder } from "@/components/Placeholder";
+import FooterWithLogo from "/components/Footer";
+import Header from "/components/navbars/Header";
+import { Placeholder } from "/components/Placeholder";
 import React from "react";
 
 const About = () => {

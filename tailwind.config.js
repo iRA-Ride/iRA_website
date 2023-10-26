@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+import { Inter } from "next/font/google";
+
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
@@ -10,7 +12,7 @@ module.exports = withMT({
   ],
   theme: {
     fontFamily: {
-      sans: ["Inter", "sans-serif"],
+      sans: [Inter, "sans-serif"],
     },
     extend: {
       backgroundImage: {

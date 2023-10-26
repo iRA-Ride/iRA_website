@@ -1,8 +1,11 @@
 import { authMiddleware } from "@clerk/nextjs";
 
 
-export default authMiddleware({});
+
+export default authMiddleware({
+    publicRoutes: ["/", "/About", "/Careers", "/Contact", "/Life", "/Locations", "/Policy", "/Search", "/Team", "/Services"],
+});
 
 export const config = {
-    matcher: ['/SignIn', '/(api|trpc)(.*)'],
+    matcher: ['/sign-in', '/sign-up', '/(api|trpc)(.*)'],
 };

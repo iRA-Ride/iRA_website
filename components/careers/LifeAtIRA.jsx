@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
-import lifeAtIRAPic from "@/public/pics/life_at_ira.jpeg";
+import lifeAtIRAPic from "/public/pics/life_at_ira.jpeg";
 
 const Content3 = () => {
   return (

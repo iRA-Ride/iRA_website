@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <Link href="/SignIn">
+            <Link href="/sign-in">
               <Button
                 size="lg"
                 className="text-white flex justify-center w-full lg:px-5 bg-blue-600 hover:bg-blue-700"
@@ -25,7 +25,7 @@ const Hero = () => {
                 Log In
               </Button>
             </Link>
-            <Link href="/SignUp">
+            <Link href="/sign-up">
               <Button
                 size="lg"
                 className="text-white w-full px-4 bg-[#713ABE] hover:bg-[#5B0888]"

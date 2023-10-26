@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
-import locationPic from "@/public/pics/locations.jpeg";
+import locationPic from "/public/pics/locations.jpeg";
 import Image from "next/image";
 
 const Content2 = () => {

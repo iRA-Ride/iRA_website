@@ -1,6 +1,5 @@
-import FooterWithSocialMediaIcons from "@/components/Footer";
-import { Placeholder } from "@/components/Placeholder";
-import CareerHeader from "@/components/navbars/CareerHeader";
+import FooterWithSocialMediaIcons from "/components/Footer";
+import CareerHeader from "/components/navbars/CareerHeader";
 import React from "react";
 
 const Life = () => {
@@ -11,7 +10,7 @@ const Life = () => {
         <div className="px-10 py-5 pt-10 font-extrabold heading-text text-4xl lg:text-6xl text-start ">
           <span>Life at iRA</span>
         </div>
-        <div className="lg:px-10 text-md lg:text-lg sub-text lg:pr-40  lg:py-5">
+        <div className="px-10 text-md lg:text-lg sub-text lg:pr-40  lg:py-5">
           <span>
             At iRA, we cherish the diversity of thought that shapes our
             platform. We provide the freedom to work on your own terms, offer
@@ -20,9 +19,11 @@ const Life = () => {
             culture of inclusivity and integrity, where every voice matters.
           </span>
         </div>
+        <div className="w-[90%] lg:px-10"></div>
       </div>
-      <Placeholder />
-      <FooterWithSocialMediaIcons />
+      <div className="lg:mt-[215px] mt-40">
+        <FooterWithSocialMediaIcons />
+      </div>
     </div>
   );
 };

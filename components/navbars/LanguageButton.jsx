@@ -9,5 +9,7 @@ const options = [
 ];
 
 export default function LanguageSelect() {
-  return <Select options={options} aria-label="Select Language" />;
+  return (
+    <Select instanceId={4} options={options} aria-label="Select Language" />
+  );
 }

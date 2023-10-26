@@ -1,6 +1,6 @@
-import FooterWithLogo from "@/components/Footer";
-import ContactForm from "@/components/contacts/ContactForm";
-import ContactHeader from "@/components/navbars/Header";
+import FooterWithLogo from "/components/Footer";
+import ContactForm from "/components/contacts/ContactForm";
+import ContactHeader from "/components/navbars/Header";
 import Link from "next/link";
 import React from "react";
 import {

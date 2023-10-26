@@ -139,15 +139,15 @@ export default function NavbarDefault() {
   );
 
   return (
-    <Navbar className="mx-auto max-w-screen-3xl rounded-none px-4 py-2 lg:px-8 lg:py-4">
+    <Navbar className="sticky z-[100] light-bg top-0 left-0 right-0 mx-auto max-w-screen-3xl rounded-none px-4 py-2 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <div className="flex items-center gap-x-1">
-          <Link href="/SignUp">
+          <Link href="/sign-up">
             <Button size="sm" className="hidden lg:inline-block bg-[#0079FF]">
               <span>Sign Up</span>
             </Button>
           </Link>
-          <Link href="/SignIn">
+          <Link href="/sign-in">
             <Button variant="text" size="sm" className="hidden lg:inline-block">
               <span>Log In</span>
             </Button>
@@ -193,7 +193,7 @@ export default function NavbarDefault() {
           )}
         </IconButton>
         <Link href="/">
-          <Image src={logo} alt="IRA" className="h-10 w-12" />
+          <Image src={logo} priority={false} alt="IRA" className="h-10 w-12" />
         </Link>
       </div>
 
@@ -201,12 +201,16 @@ export default function NavbarDefault() {
         <div className="container mx-auto">
           {navList}
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="text" size="sm" className="">
-              <span>Log In</span>
-            </Button>
-            <Button fullWidth size="sm" className="bg-[#0079FF]">
-              <span>Sign Up</span>
-            </Button>
+            <Link href={"/sign-in"}>
+              <Button fullWidth variant="text" size="sm" className="">
+                <span>Log In</span>
+              </Button>
+            </Link>
+            <Link href={"/sign-up"}>
+              <Button fullWidth size="sm" className="bg-[#0079FF]">
+                <span>Sign Up</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </Collapse>

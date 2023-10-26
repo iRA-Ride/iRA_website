@@ -5,7 +5,7 @@ import Image from "next/image";
 const Testimonials = ({ id, name, text }) => {
   return (
     <div key={id} className="px-3 py-2 cursor-pointer">
-      <Card className="light-bg h-[130px] lg:h-[120px]">
+      <Card className="light-bg h-[130px] xl:h-[120px] lg:h-[170px]">
         <CardBody>
           <Typography variant="h6" className="text-center heading-text">
             {name}
