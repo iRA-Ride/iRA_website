@@ -39,7 +39,7 @@ export default function SimpleRegistrationForm() {
           </Typography>
           <Input
             size="lg"
-            placeholder="Anna Nagar, Chennai"
+            placeholder="Anna` Nagar, Chennai"
             value={returnDestination}
             onChange={(events) => setReturnDestination(events.target.value)}
             className=" !border-t-blue-gray-200 focus:!border-t-gray-900"

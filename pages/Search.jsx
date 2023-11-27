@@ -11,18 +11,24 @@ const parameters = () => {
   const [rideSharing, setRideSharing] = useState(false);
   const [returnTrip, setReturnTrip] = useState(false);
 
+  let hasParam = false;
+
   useEffect(() => {
-    const queryParameters = new URLSearchParams(window.location.search);
-    const location = queryParameters.get("Location");
-    const destination = queryParameters.get("Destination");
-    const sharing = queryParameters.get("Sharing");
-    const returnTrip = queryParameters.get("Return");
-    const returnDestination = queryParameters.get("ReturnDestination");
-    setLocation(location);
-    setDestination(destination);
-    setRideSharing(sharing);
-    setReturnTrip(returnTrip);
-    setReturnDestination(returnDestination);
+    if (!hasParam) {
+      hasParam = true; // to prevent infinite loop
+
+      const queryParameters = new URLSearchParams(window.location.search);
+      const location = queryParameters.get("Location");
+      const destination = queryParameters.get("Destination");
+      const sharing = queryParameters.get("Sharing");
+      const returnTrip = queryParameters.get("Return");
+      const returnDestination = queryParameters.get("ReturnDestination");
+      setLocation(location);
+      setDestination(destination);
+      setRideSharing(sharing);
+      setReturnTrip(returnTrip);
+      setReturnDestination(returnDestination);
+    }
   }, []);
 
   return [location, destination, rideSharing, returnTrip, returnDestination];

@@ -36,6 +36,9 @@
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "checkly": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
   }
 }
